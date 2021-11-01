@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #292929;
     overflow: hidden;
 }
 
@@ -77,11 +77,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(62, 122, 48);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(62, 172, 48);
 }
 
 
