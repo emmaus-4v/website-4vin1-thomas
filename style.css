@@ -3,9 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: #3c4546;  
     
-    color: #303030;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
