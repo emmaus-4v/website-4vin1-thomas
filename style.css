@@ -19,7 +19,7 @@ main {
 
 
 article {
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -80,11 +80,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(211, 113, 21);
+    background-color: rgb(255, 136, 25);
 }
 
 nav li a.active {
-    background-color: rgb(167, 89, 17);
+    background-color: rgb(138, 74, 14);
 }
 
 
