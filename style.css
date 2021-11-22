@@ -45,6 +45,11 @@ img.zweefLinks {
 
 .smalltext {
     font-size: 0.7em;
+    color:rgb(209, 143, 0);
+}
+
+.mail {
+    color:rgb(209, 143, 0);
 }
 
 a {
