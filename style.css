@@ -44,7 +44,7 @@ img.zweefLinks {
 }
 
 .smalltext {
-    font-size: 0.7em;
+    font-size: 0.9em;
     color:rgb(209, 143, 0);
 }
 
@@ -65,7 +65,7 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
     background-color: #141414;
     overflow: hidden;
@@ -84,14 +84,10 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li a:hover{
     background-color: rgb(255, 136, 25);
 }
 
 nav li a.active {
     background-color: rgb(138, 74, 14);
 }
-
-
-
-
