@@ -30,6 +30,7 @@ header {
 
 
 footer {
+    clear: both;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -41,7 +42,14 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
     border-radius: 10px;
-        box-shadow: 10px 10px 5px white;
+        box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+img.zweefRechts {
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
+        box-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 .smalltext {
