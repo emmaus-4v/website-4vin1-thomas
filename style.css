@@ -77,14 +77,19 @@ nav ul {
     margin: 0;
     padding: 0;
     background-color: #141414;
-    width: 150px;
-    height: 90px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+nav ul li {
+    float: left;
 }
 
 nav li a {
     display: block;
     color: white;
-    padding: 8x 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
