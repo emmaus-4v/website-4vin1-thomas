@@ -8,6 +8,7 @@ html, body {
     color: #ffffff;
     text-shadow: 2px 2px 2px #000000;
     font-family: Verdana;
+    background-image: url(/afbeeldingen/bg.jpg);
 }
 
 
