@@ -6,10 +6,11 @@ html, body {
     background-color: #242b2c;  
     
     color: #ffffff;
-    text-shadow: 2px 2px 2px #000000;
-    font-family: Verdana;
-    background-image: url(/afbeeldingen/bgedit.jpeg);
+    text-shadow: 2px 2px 1px #000000;
+    font-family: sans-serif;
+    background-image: url(/afbeeldingen/bg.jpeg);
     background-color: #ffffffaa;
+    background-attachment: fixed;
 }
 
 main {
@@ -21,12 +22,16 @@ main {
 
 article {
     text-align: left;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
+
 
 
 header {
     color: darkorange;
     text-align: center;
+    
 }
 
 
@@ -34,6 +39,7 @@ footer {
     clear: both;
     text-align: center;
     padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -41,17 +47,31 @@ footer {
 
 img.zweefLinks {
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     border-radius: 10px;
         box-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 img.zweefRechts {
     float: right;
-    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
     border-radius: 10px;
         box-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
+
+
+
+.phome, .pinfo, .ulabout, .psoorten{
+    margin: 10px;
+}
+
+.psoorten {
+    text-align: center;
+}
+
 
 .smalltext {
     font-size: 0.9em;
@@ -70,7 +90,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 
 /* navigatiebalk */
 nav ul {
@@ -94,6 +113,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Courier New';
 }
 
 nav li a:hover{
